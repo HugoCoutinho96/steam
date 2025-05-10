@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+
+@layer utilities {
+  .menu-opcoes-borda > * {
+    padding-bottom: 1px;
+    border-bottom-width: 3px;
+    border-color: transparent;
+    border-radius: 1px;
+    color: #dcdedf;
+  }
+
+  .menu-opcoes-borda > *:not(.active):hover{
+    color: white
+  }
+
+  .active{
+    color: #3695e5;
+    border-color: #3398e1;
+  }
+}
