@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import logoImg from "@/../public/images/logo_steam.svg"
 import Link from "next/link";
@@ -19,13 +20,13 @@ export default function Header(){
                     <Link href={""}>SUPORTE</Link>
                 </div>
             </div>
-            <div className="ml-auto pt-1 text-[#b8b6b4] leading-6">
+            <div className="flex ml-auto pt-1 text-[#b8b6b4] leading-6">
                 <Link href={""} className="text-[#b8b6b4] hover:text-white font-['Motiva_Sans'] font-normal text-[11px]">
                     iniciar sessão
                 </Link>
                 <span className="text-[12px] mx-1">|</span>
                 <Link href={""} className="hover:text-white font-['Motiva_Sans'] font-normal text-[11px]">
-                    <span>idioma</span>
+                    <span className="flex items-center gap-0.5">idioma <CaretDown size={12} color="white"/></span>
                 </Link>
             </div>
         </div>

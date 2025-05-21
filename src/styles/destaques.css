@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+
+@layer utilities {
+  .destaque_description{
+    background: url("../../public/images/background.jpg");
+  }
+
+  .preco_antigo::before{
+        content: '';
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        top: 43%;
+        border-bottom: 1.5px solid #738895;
+        transform: skewY(-8deg);
+        box-shadow: 0 0 2px black;
+  }
+}

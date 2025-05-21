@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+
+@layer utilities {
+    .menu-opcoes ul li{
+        @apply px-3 py-0 text-[13px] font-bold leading-[34px];
+    }
+
+    .menu-opcoes ul li:hover{
+        background: linear-gradient(to right, #2f79c3 60%, transparent 100%);
+    }
+}

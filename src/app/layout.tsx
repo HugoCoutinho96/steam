@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt">
       <head>
         <link href="https://fonts.cdnfonts.com/css/motiva-sans" rel="stylesheet"/>
       </head>
